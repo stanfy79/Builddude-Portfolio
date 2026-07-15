@@ -2,9 +2,15 @@ main {
   min-height: 100vh;
   overflow: hidden;
   color: var(--ink);
-  background:
-    radial-gradient(circle at 50% 0%, rgba(79, 70, 229, 0.16), transparent 30rem),
-    linear-gradient(180deg, #ffffff 0%, #f8fafc 48%, #ffffff 100%);
+    background:
+    linear-gradient(rgba(15, 23, 42, 0.065) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.065) 1px, transparent 1px),
+    conic-gradient(from 140deg at 22% 16%, rgba(78, 70, 229, 0), rgba(6, 181, 212, 0), rgba(249, 116, 22, 0), rgba(236, 72, 154, 0), rgba(78, 70, 229, 0));
+  background-size: 52px 52px, 52px 52px, 100% 100%;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 a {
@@ -985,6 +991,7 @@ kbd {
 
   .nav {
     grid-template-columns: auto auto;
+    justify-content: space-between;
     gap: 8px;
   }
 
@@ -1007,11 +1014,15 @@ kbd {
   }
 
   h1 {
-    font-size: clamp(3.8rem, 18vw, 6.2rem);
+    font-size: clamp(2.5rem, 18vw, 2rem);
   }
 
   h2 {
-    font-size: clamp(2.15rem, 12vw, 3.4rem);
+    font-size: clamp(2.15rem, 12vw, 3rem);
+  }
+
+  .eyebrow {
+    margin-top: 50px;
   }
 
   .hero-actions,
