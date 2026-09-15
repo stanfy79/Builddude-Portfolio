@@ -20,7 +20,7 @@ const companies = ['BlockBot', 'Norelix', 'OneTrip', 'Open Source', 'GitHub']
 
 const stats = [
   { value: '4+', label: 'Years building' },
-  { value: '5+', label: 'Projects shipped' },
+  { value: '7+', label: 'Projects shipped' },
   { value: '10+', label: 'Core technologies' },
   { value: '500+', label: 'Users impacted' },
 ]
@@ -55,7 +55,7 @@ const projects = [
     description:
       'A conversational wallet flow for onboarding users into crypto payments, balances, and blockchain actions without forcing them through complex dashboards.',
     tech: ['React', 'TypeScript', 'NodeJS', 'Firebase', 'Privy'],
-    metric: 'Wallet flows',
+    metric: 'AI Agent',
     accent: 'project-indigo',
     liveDemo: 'https://useblockbot.com',
     github: '#',
@@ -70,6 +70,28 @@ const projects = [
     accent: 'project-cyan',
     liveDemo: 'https://norelix.vercel.app',
     github: '#',
+  },
+  {
+    title: 'Senethi',
+    label: 'An AI Agent That Runs on KeeperHub',
+    description:
+      'Senethi is an AI treasury agent that continuously monitors an onchain treasury, makes risk-aware allocation decisions, and executes rebalances through KeeperHub, with every decision, simulation, transaction, gas cost, and outcome auditable. The important part is that the AI does not execute transactions itself.',
+    tech: ['React', 'TypeScript', 'MongoDB', 'HeeperHub', 'NodeJS'],
+    metric: 'AI Wallet Automation',
+    accent: 'project-indigo',
+    liveDemo: 'https://senethi.vercel.app',
+    github: 'https://github.com/stanfy79/Senethi-Backend',
+  },
+  {
+    title: 'ValidChain',
+    label: 'Onchain Tooling',
+    description:
+      'ValidChain turns fragmented blockchain transaction data into a simple, verifiable transaction history. The platform is essentially solving the trust and transparency layer for blockchain transactions.',
+    tech: ['React', 'TypeScript', 'MongoDB', 'USC SDK', 'CreditCoin', 'NodeJS'],
+    metric: 'AI Wallet Automation',
+    accent: 'project-cyan',
+    liveDemo: 'https://validchain.vercel.app',
+    github: 'https://github.com/stanfy79/ValidChain-Backend',
   },
   {
     title: 'OneTrip',
@@ -109,12 +131,12 @@ const projects = [
 const timeline = [
   {
     year: '2026',
-    role: 'Founder',
+    role: 'Co-Founder',
     company: 'Norelix',
     detail: 'Norelix is a crypto payment platform that enables businesses to accept and manage digital payments through a secure, modern web application.',
   },
   {
-    year: '2024',
+    year: '2025',
     role: 'Co-Founder',
     company: 'BGC LABS',
     detail: 'Building AI-assisted crypto wallet experiences and reliable product infrastructure.',
